@@ -1,16 +1,17 @@
 {
   "name": "mock-json-server",
   "version": "1.0.0",
-  "description": "MOCK JSON server for testing APIs",
-  "main": "api/server.js",
+  "description": "Mock JSON server for testing APIs",
+  "main": "server.js",
   "scripts": {
-    "start": "node api/server.js",
+    "start": "node server.js",
+    "dev": "json-server --watch db.json --port 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["mock-api", "json-server", "testing"],
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^0.17.4"
   }
 }
