@@ -2,7 +2,7 @@
   "name": "mock-json-server",
   "version": "1.0.0",
   "description": "MOCK JSON server for testing APIs",
-  "main": "api/server.json",
+  "main": "api/server.js",
   "scripts": {
     "start": "node api/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
